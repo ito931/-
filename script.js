@@ -13,6 +13,7 @@ function randomNumber(n) {
     }
 }
 
+
 function feildClear() {
  while (box1[[2]].firstChild) {
      box1[2].removeChild(box1[2].firstChild);
@@ -34,8 +35,10 @@ function visivle() {
 function pattern1() {
     feildClear()
     visivle()
+    let input = Number(document.getElementById("textbox").value);
     document.body.style.backgroundColor = "darkgrey";
     box1[1].style.display = "block";
+    console.log(input)
     if (input !== 0 ){
         nn = input
     } else {
@@ -54,6 +57,7 @@ function pattern1() {
 function pattern2() {
     feildClear()
     visivle()
+    let input = Number(document.getElementById("textbox").value);
     document.body.style.backgroundColor = "darkgreen";
     box2[1].style.display = "block";
     if (input !== 0 ){
@@ -74,6 +78,7 @@ function pattern2() {
 function pattern3() {
     feildClear()
     visivle()
+    let input = Number(document.getElementById("textbox").value);
     document.body.style.backgroundColor = "dimgray";
     box3[1].style.display = "block";
     if (input !== 0 ){
@@ -95,6 +100,5 @@ let nn = 0;
 const box1 = document.getElementsByClassName("box1")
 const box2 = document.getElementsByClassName("box2")
 const box3 = document.getElementsByClassName("box3")
-const input = Number(document.getElementById("textbox").value)
 const button = document.getElementById("button");
 button.addEventListener("click",  guessMyNumber);
