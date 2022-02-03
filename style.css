@@ -1,0 +1,55 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 45px;
+    margin: auto;
+}
+
+#button {
+    height: 50px;
+    width:200px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+label {
+    font-size: 20px;
+}
+
+h2.box1{
+    font-size: 40px;
+    display: none;
+    color: white;
+}
+h2.box2{
+    font-size: 40px;
+    display: none;
+    color: white;
+}
+h2.box3{
+    font-size: 40px;
+    display: none;
+    color: white;
+}
+
+a.box1{
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+}
+a.box2{
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+}
+a.box3{
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    border: 0px solid;
+}
